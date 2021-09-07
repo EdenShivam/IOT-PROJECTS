@@ -40,7 +40,8 @@ Result will be shows to anyone as a binary value naming 0/1 or On/Off
 ![image](https://user-images.githubusercontent.com/69396799/132365326-c3258d3f-fc0f-446b-aab5-66e93c811ed5.png)
 
 .
-
+Creating the Bot on Telegram
+Create a bot on the Telegram app on your phone. Bots on Telegram can be created using BotFather. The process is shown below. Commands are prefixed with a / . After creating your bot, save the token given carefully. This is required to access the Telegram Bot HTTP API. Also, click on the link given (t.me/your-bot) to access your bot.
 
 
 
