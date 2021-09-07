@@ -41,9 +41,27 @@ Result will be shows to anyone as a binary value naming 0/1 or On/Off
 
 .
 Creating the Bot on Telegram
-Create a bot on the Telegram app on your phone. Bots on Telegram can be created using BotFather. The process is shown below. Commands are prefixed with a / . After creating your bot, save the token given carefully. This is required to access the Telegram Bot HTTP API. Also, click on the link given (t.me/your-bot) to access your bot.
+Create a bot on the Telegram app on your phone. Bots on Telegram can be created using BotFather. The process is shown below. Commands are prefixed with a / . After creating your bot, save the token given carefully. This is required to access the Telegram Bot HTTP API.
+![image](https://user-images.githubusercontent.com/69396799/132366779-5299b05b-31bd-4ad6-b6a5-d9efe60e014c.png)
+
+This bot takes 3 commands: /start ,/lighton and /lightoff
+Command /start will return a message instructing the user to give the appropriate inputs
+/lighton will display the message “Light turned on”. It will also return an image of a lit bulb and will send a value to Adafruit indicating that its ON.
+/lightoff will display the message “Light turned off”. It will also return an image of an unlit bulb and will send a value to Adafruit indicating that its OFF.
+If any unknown command is given, the bot will reply with the message indicating that it hasn’t understood your command.
+![image](https://user-images.githubusercontent.com/69396799/132367572-57a284f0-a955-4f63-87a1-9fbfd1b8cee0.png)
+![image](https://user-images.githubusercontent.com/69396799/132367533-212d3835-1588-4bf2-92dd-0387df240fc7.png)
+
+Deploying the app on Heroku
+Create a new account or use an existing one to build an app in Heroku. Name your app suitably and click next. Here, we will connect our GitHub account to Heroku as the ‘Deployment Method’ instead of using Heroku CLI. Search your repository and connect it. Also, enable ‘Automatic Deploys’.
+Go to the ‘Settings’ page and set your ‘Config Vars’ to values containing your Adafruit username, password, and Telegram API token. Create a ‘Procfile’ on your connected GitHub repo and refresh the ‘Overview’ tab page on Heroku. On doing this, you will see that it has recognized your ‘Procfile’ under ‘Dyno formation’. Click on ‘Configure Dynos’ and set it to ON.
+With these steps, your app should start building and get deployed successfully.
+
+To code or run the python script use googlecolab best to implement this project,Thank you.
 
 
+To see the live working example of this bot is being showed in a live video:
+Click this link or copy if not working:
 
 
 
