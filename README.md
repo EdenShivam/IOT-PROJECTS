@@ -62,6 +62,7 @@ To code or run the python script use googlecolab best to implement this project,
 
 To see the live working example of this bot is being showed in a live video:
 Click this link or copy if not working:
+https://drive.google.com/drive/folders/1oK7MBO9fFNJkwYVT8Wv6BD3rezgUDxlw
 
 
 
